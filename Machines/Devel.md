@@ -67,7 +67,7 @@
   <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/9f6c1b00-69be-450f-9952-037a56dd173e" alt="local_exploit_suggester">
 </p>
 
-<p>I'm gonna use MS10 (when Microsoft reports their security bulletins, they call their vulns MSXX, being XX the year that was published, for example, MS08 means that that vuln is from 2008), becouse iv'e seen by using "systeminfo" that the os has never been updated and thinking that it's running on a Windows 7, it may work.</p>
+<p>I'm gonna use the first MS10 (when Microsoft reports their security bulletins, they call their vulns MSXX, being XX the year that was published, for example, MS08 means that that vuln is from 2008), becouse iv'e seen by using "systeminfo" that the os has never been updated and thinking that it's running on a Windows 7, it may work.</p>
 
 <p align="center">
   <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/cda71e11-a8b4-4ec7-86ba-c1fbc50f0745" alt="Payload">
