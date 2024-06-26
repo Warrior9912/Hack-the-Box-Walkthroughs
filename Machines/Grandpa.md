@@ -13,13 +13,17 @@
 
 <p>To get started, as always, we start ennumerating with <strong>nmap</strong></p>
 
-<p>
+<p align="center">
   <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/a24cd6e7-b939-480e-9b9c-1e598e0ca15e">
 </p>
-<p></p>
-![1]()
 
-![2 1](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/44ec4f84-a0ea-4a03-95ce-ddfec6beca1f)
+<p>As we can see, there is a WebDav, so, to check if it's possible a WebDav vuln, we can use <strong>davtest</strong> as it follows:</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/44ec4f84-a0ea-4a03-95ce-ddfec6beca1f">
+</p>
+
+![2 1]()
 
 ![2](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/48980dff-70bb-419d-be5b-fd2929532118)
 
