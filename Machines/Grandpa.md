@@ -1,5 +1,5 @@
 
-<p align="centre">
+<p align="center">
   <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/d343a130-20d1-43d7-b454-b14e526d37f9">
 </p>
 
