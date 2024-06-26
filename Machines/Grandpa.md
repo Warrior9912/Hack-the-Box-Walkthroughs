@@ -71,14 +71,52 @@
 
 <p>The one that has caught my attention is SEImpersonatePrivilege, which from the research I have done, I have read that we can do a Token Theft, which would allow us to steal the security token of an administrator user and be able to gain privileges with it.</p>
 
+<h3>Privilege Escalation</h3>
 
+<p>So, we have come to the conclusion that comes the complex part, privilege escalation. I have found the following repositories, both have helped me to gain privileges</p>
 
-![9](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/fb395fd7-442a-46a8-a3c8-7ade50d26311)
+<p align="center">
+  <img src="https://gh-card.dev/repos/SecWiki/windows-kernel-exploits.svg">
+</p>
 
-![10](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/faf302b5-926f-4901-bbac-4def9c585e2b)
+<p align="center">
+  <img src="https://gh-card.dev/repos/Re4son/Churrasco.svg">
+</p>
 
-![11](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/cafe6c20-d7b3-4d74-9a25-8c18bcc15bb2)
+<p>Before doing anything, I have realized that neither with <strong>certutil</strong> nor with <strong>powershell Invoke-WebRequest</strong> has let me upload neither the reverse shell nor the exploit, so I attach a repository with which we can upload files.</p>
 
-![12](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/cafe408a-0090-4916-9e68-5e9fdcc40ba8)
+<p align="center">
+  <img src="https://gh-card.dev/repos/fortra/impacket.svg">
+</p>
 
-![13](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/04e639b8-206b-4f21-a8bc-0ab9eb572ee9)
+<p>Let's prepare our reverse shell:</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/fb395fd7-442a-46a8-a3c8-7ade50d26311">
+</p>
+
+<p>We upload the files to the victim machine</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/faf302b5-926f-4901-bbac-4def9c585e2b">
+</p>
+
+<p>Open another terminal and run netcan on the port you want to, then use the exploit like this:</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/cafe6c20-d7b3-4d74-9a25-8c18bcc15bb2">
+</p>
+
+<p>And as we can see, we have gained administrator permissions!</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/cafe408a-0090-4916-9e68-5e9fdcc40ba8">
+</p>
+
+<p>So now we just have to get the flags!</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/04e639b8-206b-4f21-a8bc-0ab9eb572ee9">
+</p>
+
+<p>With that we just finished another machine. Be nice!</p>
