@@ -3,7 +3,21 @@
   <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/d343a130-20d1-43d7-b454-b14e526d37f9">
 </p>
 
-![1](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/a24cd6e7-b939-480e-9b9c-1e598e0ca15e)
+<h1 align="center">Grandpa</h1>
+
+<h2>Intro</h2>
+<p>In this walkthrough we are going to talk about the machine <strong>Grandpa</strong> which is a Windows machine</p>
+
+<h2>Walkthrough</h2>
+<h3>Recon and Service enumeration</h3>
+
+<p>To get started, as always, we start ennumerating with <strong>nmap</strong></p>
+
+<p>
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/a24cd6e7-b939-480e-9b9c-1e598e0ca15e">
+</p>
+<p></p>
+![1]()
 
 ![2 1](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/44ec4f84-a0ea-4a03-95ce-ddfec6beca1f)
 
