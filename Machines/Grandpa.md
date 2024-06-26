@@ -29,13 +29,19 @@
   <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/48980dff-70bb-419d-be5b-fd2929532118">
 </p>
 
-<p>So, to save you some time, at least for me, none of the options are valid, so we have to do a little research. I found the following Github repository</p>
+<h3>Getting Inside</h3>
+
+<p>So, to save you some time, at least for me, none of the options are valid, so we have to do a little research. I found the following Github repository:</p>
 
 <p align="center">
   <img src="https://gh-card.dev/repos/g0rx/iis6-exploit-2017-CVE-2017-7269.svg">
 </p>
 
-![3](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/7f5f7fc6-23e2-43c1-b521-af5fffc8652a)
+<p>To get the reverse shell that we need we should do the following:</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/7f5f7fc6-23e2-43c1-b521-af5fffc8652a">
+</p>
 
 ![4](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/7da8fb1f-897f-4866-aa4a-6c8354eff355)
 
