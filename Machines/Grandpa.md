@@ -45,13 +45,33 @@
 
 ![4](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/7da8fb1f-897f-4866-aa4a-6c8354eff355)
 
-![5](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/cfb0947b-a4ab-43fd-a661-9e78ff90e1a6)
+<p>As we can see it has been easy to catch the reverse shell, but we are not authority/system, we are <strong>authority/network system</strong> and as we can see in the following image, we don't have any permissions</p>
 
-![6](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/d9de7993-9cc4-4c69-9f41-6d39c3ee538f)
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/cfb0947b-a4ab-43fd-a661-9e78ff90e1a6">
+</p>
 
-![7](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/2dff9512-ff68-4dcc-8247-5343df15bdfe)
+<p>Going to the root directory I noticed that there is a strange directory that I have not seen on any Windows system:</p>
 
-![8](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/20e97a88-e97a-43a0-8ff8-756a65e1aa95)
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/d9de7993-9cc4-4c69-9f41-6d39c3ee538f">
+</p>
+
+<p>And while trying to create and write a file I realised that it is possible to create and write to this directory</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/2dff9512-ff68-4dcc-8247-5343df15bdfe">
+</p>
+
+<p>I took a look at the privileges my user has to see if I could do anything spial and found that I have 3 permissions enabled</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/20e97a88-e97a-43a0-8ff8-756a65e1aa95">
+</p>
+
+<p>The one that has caught my attention is SEImpersonatePrivilege, which from the research I have done, I have read that we can do a Token Theft, which would allow us to steal the security token of an administrator user and be able to gain privileges with it.</p>
+
+
 
 ![9](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/fb395fd7-442a-46a8-a3c8-7ade50d26311)
 
