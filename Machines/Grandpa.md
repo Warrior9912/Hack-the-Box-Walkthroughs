@@ -31,17 +31,11 @@
 
 <p>So, to save you some time, at least for me, none of the options are valid, so we have to do a little research. I found the following Github repository</p>
 
-![3](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/7f5f7fc6-23e2-43c1-b521-af5fffc8652a)
-
-
 <p align="center">
-    <a href="https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269">
-        <img src="https://img.shields.io/badge/Repositorio-GitHub-blue" alt="GitHub Repo">
-    </a>
-    <img src="https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269/workflows/CI/badge.svg" alt="Build Status">
-    <img src="https://img.shields.io/github/last-commit/g0rx/iis6-exploit-2017-CVE-2017-7269" alt="GitHub last commit">
-    <img src="https://img.shields.io/github/issues/g0rx/iis6-exploit-2017-CVE-2017-7269" alt="GitHub issues">
+  <img src="https://gh-card.dev/repos/g0rx/iis6-exploit-2017-CVE-2017-7269.svg">
 </p>
+
+![3](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/7f5f7fc6-23e2-43c1-b521-af5fffc8652a)
 
 ![4](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/7da8fb1f-897f-4866-aa4a-6c8354eff355)
 
