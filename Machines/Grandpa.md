@@ -6,12 +6,12 @@
 <h1 align="center">Grandpa</h1>
 
 <h2>Intro</h2>
-<p>In this walkthrough we are going to talk about the machine <strong>Grandpa</strong> which is a Windows machine</p>
+<p>In this walkthrough we are going to talk about the machine <strong>Grandpa</strong> which is a Windows machine.</p>
 
 <h2>Walkthrough</h2>
 <h3>Recon and Service enumeration</h3>
 
-<p>To get started, as always, we start ennumerating with <strong>nmap</strong></p>
+<p>To get started, as always, we start ennumerating with <strong>nmap</strong>:</p>
 
 <p align="center">
   <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/a24cd6e7-b939-480e-9b9c-1e598e0ca15e">
@@ -23,9 +23,12 @@
   <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/44ec4f84-a0ea-4a03-95ce-ddfec6beca1f">
 </p>
 
-![2 1]()
+<p>We can see that there is nothing enabled, so let's check the nmap report again. We see that it is an ISS 6.0, so here we should check for posssible exploit with <strong>searchsploit</strong></p>
 
-![2](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/48980dff-70bb-419d-be5b-fd2929532118)
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/48980dff-70bb-419d-be5b-fd2929532118">
+</p>
+
 
 ![3 1](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/ff4e0971-69f5-423c-aea8-30991ae9f266)
 
