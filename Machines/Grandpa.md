@@ -28,12 +28,20 @@
 <p align="center">
   <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/48980dff-70bb-419d-be5b-fd2929532118">
 </p>
-![3](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/d539a29a-098c-46ad-99ef-1ccec1e5c9f4)
-
 
 <p>So, to save you some time, at least for me, none of the options are valid, so we have to do a little research. I found the following Github repository</p>
 
-<p align="center">https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269</p>
+![3](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/7f5f7fc6-23e2-43c1-b521-af5fffc8652a)
+
+
+<p align="center">
+    <a href="https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269">
+        <img src="https://img.shields.io/badge/Repositorio-GitHub-blue" alt="GitHub Repo">
+    </a>
+    <img src="https://github.com/g0rx/iis6-exploit-2017-CVE-2017-7269/workflows/CI/badge.svg" alt="Build Status">
+    <img src="https://img.shields.io/github/last-commit/g0rx/iis6-exploit-2017-CVE-2017-7269" alt="GitHub last commit">
+    <img src="https://img.shields.io/github/issues/g0rx/iis6-exploit-2017-CVE-2017-7269" alt="GitHub issues">
+</p>
 
 ![4](https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/7da8fb1f-897f-4866-aa4a-6c8354eff355)
 
