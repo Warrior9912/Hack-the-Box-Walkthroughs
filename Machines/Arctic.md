@@ -28,3 +28,9 @@ called ColdFusion</p>
   <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/5323520f-ba94-490b-9d94-bb80f61127ca">
 </p>
 
+<p>By checking on Firefox what do we have, it looks that there are some directories</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/ac67ed0e-3dac-4894-9afb-5979d715fa4c">
+</p>
+
