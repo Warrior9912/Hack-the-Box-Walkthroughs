@@ -80,3 +80,46 @@ I tried using <strong>cadaver</strong> as well, I could join the session but for
 </p>
 
 <p>Here I tried going directly to user.txt but I realised that I don't have permissions to enter the user folder, so I just checked to see what I can do. I went to the root directory and noticed that there is a folder that is not common to have on a Windows system, and I saw that I had read and write permissions on it. I took a look at the privileges that my user had and saw that he is vulnerable to Token Theft. So here I knew what to do.</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/1ef7bd75-7db2-46d3-95cc-0f34871dbbce">
+</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/31c270dc-0c8c-4530-ac53-b756e799cb32">
+</p>
+
+<h3>Privilege escalation</h3>
+
+<p>From here we are going to use a tool that we have already used on other machines <strong>Churrasco</strong> and we are going to use <strong>Impacket's smbserver</strong> to upload both the new reverse shell, with administrator permissions and <strong>Churrasco</strong>.</p>
+
+<a href="https://github.com/Re4son/Churrasco"><img src="https://gh-card.dev/repos/Re4son/Churrasco.svg"></a>
+
+<a href="https://github.com/fortra/impacket"><img src="https://gh-card.dev/repos/fortra/impacket.svg"></a>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/4053ce27-dfbb-43fb-a99b-c3f3930e2a1a">
+</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/655eaedd-a0fd-4fe2-bd03-1c1c17ddadca">
+</p>
+
+<p>Execute the payload...</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/f4832020-ae0e-4f39-8e79-25fbdc70ccb5">
+</p>
+
+<p>And we are in! With our precious flags!</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/a12330e1-1762-4bb8-81ec-cbe696f0d97a">
+</p>
+
+<p align="center">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/78ed2dd1-18a1-43f4-9dd3-9d64d4c68ccd">
+</p>
+
+<p>Finished! Be nice!</p>
+
