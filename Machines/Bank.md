@@ -240,7 +240,7 @@ I don't recognize any "emergency" file in linux, so i've checked what was inside
 </p>
 
 <p align="center">
-  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/ef8ba1f9-5713-4deb-a5fb-1863c31e8e31">
+  <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/7a0ca725-5bd9-4968-ab13-4295a9fb0e7b">
 </p>
 
 <p>I executed the code and got a root cmd session 😆. And got the root flag!</p>
