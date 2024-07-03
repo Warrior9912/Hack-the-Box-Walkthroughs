@@ -142,4 +142,4 @@
   <img src="https://github.com/Warrior9912/Hack-the-Box-Walkthroughs/assets/34217036/f5afcaf3-4f58-4158-ae1f-d8e13d910535">
 </p>
 
-<p>So this is it, we finished the machine Blocky, quite easy to be hones. Be nice!</p>
+<p>So this is it, we finished the machine Blocky, quite easy to be honest. Be nice!</p>
