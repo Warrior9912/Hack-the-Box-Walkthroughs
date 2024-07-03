@@ -10,9 +10,11 @@
 EternalBlue is a cyberattack exploit developed by the NSA that targets a vulnerability in Microsoft's SMB protocol. Its purpose is to gain unauthorized access to Windows computers. It had a significant impact, being used in major cyberattacks like WannaCry and NotPetya, causing widespread disruption and damage globally.
 You can get more info about it here:
 </p>
+
 <a href="https://github.com/blog/eternalblue-nsa-developed-exploit-just-wont-die" align="center">
-  <img src="https://gh-card.dev/repos/blog/eternalblue-nsa-developed-exploit-just-wont-die.svg">
+  <img src="https://gh-card.dev/repos/blog/eternalblue-nsa-developed-exploit-just-wont-die.svg" alt="GitHub Repository Card">
 </a>
+
 
 <h2>Walkthrough</h2>
 
