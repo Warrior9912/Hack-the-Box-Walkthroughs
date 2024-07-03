@@ -11,7 +11,7 @@ EternalBlue is a cyberattack exploit developed by the NSA that targets a vulnera
 You can get more info about it here:
 </p>
 
-<a href="https://github.com/blog/eternalblue-nsa-developed-exploit-just-wont-die" style="text-align: center; display: block;">
+<a href="[https://github.com/blog/eternalblue-nsa-developed-exploit-just-wont-die](https://www.sentinelone.com/blog/eternalblue-nsa-developed-exploit-just-wont-die/)" style="text-align: center; display: block;">
   EternalBlue Exploit: What It Is And How It Works
 </a>
 
