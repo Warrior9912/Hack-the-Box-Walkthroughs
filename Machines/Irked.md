@@ -8,7 +8,7 @@
 <p>In this walkthrough we are going to talk about the machine <strong>Irked</strong>. It's a Linux machine which has IRC enabled and we are going to vulnerate it. IRC stands for Internet Relay Chat. It is a text-based chat system. You can check more on this Wikipedia article:</p>
 
 <p align="center">
-  <a href="https://github.com/wiki/IRC"><img src="![image](https://github.com/user-attachments/assets/6114b1b1-e064-47fb-a2ad-6c9ef2a59c73)"></a>
+  <a href="https://en.wikipedia.org/wiki/IRC"><img src="https://github.com/user-attachments/assets/6114b1b1-e064-47fb-a2ad-6c9ef2a59c73"></a>
 </p>
 
 
@@ -95,7 +95,7 @@
 <p>When we see what's inside, it shows us what I think is a password, and a text that tells us it's a steg backup. At this point I don't know what ‘steg’ is, with a quick search I found that it refers to ‘steganogrphy’, from what I have found this is used to save secret information inside image files (mainly), I leave you the article where I found this information, in it gives us the tool ‘steghide’, so I will try to use it with the only image I have available, the image of the web page.</p>
 
 <p align="center">
-  <a href="https://github.com/articles/steganography-how-to-hide-data-in-images-and-extract-them"><img src="https://github.com/user-attachments/assets/cfa02053-1bb1-44ee-b62b-11d20ecb0121"></a>
+  <a href="https://www.blackhatethicalhacking.com/articles/steganography-how-to-hide-data-in-images-and-extract-them/"><img src="https://github.com/user-attachments/assets/cfa02053-1bb1-44ee-b62b-11d20ecb0121"></a>
 </p>
 
 <p align="center">
