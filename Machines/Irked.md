@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="![0](https://github.com/user-attachments/assets/61f230cd-0531-4f59-8615-f6642b947a1b)">
+  <img src="https://github.com/user-attachments/assets/61f230cd-0531-4f59-8615-f6642b947a1b">
 </p>
 <h1 align="center">Irked</h1>
 
@@ -7,7 +7,10 @@
 
 <p>In this walkthrough we are going to talk about the machine <strong>Irked</strong>. It's a Linux machine which has IRC enabled and we are going to vulnerate it. IRC stands for Internet Relay Chat. It is a text-based chat system. You can check more on this Wikipedia article:</p>
 
-<a href="https://github.com/wiki/IRC"><img src="![image](https://github.com/user-attachments/assets/6114b1b1-e064-47fb-a2ad-6c9ef2a59c73)"></a>
+<p align="center">
+  <a href="https://github.com/wiki/IRC"><img src="![image](https://github.com/user-attachments/assets/6114b1b1-e064-47fb-a2ad-6c9ef2a59c73)"></a>
+</p>
+
 
 <h2>Walkthrough</h2>
 
